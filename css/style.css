@@ -1,6 +1,6 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f5f7fa;
+  font-family: "Montserrat", sans-serif;
+  background-color: #bdc9db;
 }
 .about-me-profession {
   font-size: 14px;
@@ -15,7 +15,7 @@ li {
 .Main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1000px;
   background-color: white;
   margin: 40px auto;
 }
@@ -36,7 +36,7 @@ li {
   font-size: 20px;
   line-height: 27px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
 }
 .about-me-name {
   font-style: normal;
@@ -46,6 +46,16 @@ li {
   color: black;
   margin-bottom: 26px;
 }
+
+.about-me-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: black;
+  margin-bottom: 10px;
+}
+
 .about-me-description {
   width: 400px;
   font-style: normal;
@@ -62,7 +72,7 @@ li {
   height: 107px;
   left: 498px;
   top: 412px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .my-projects-title {
   font-style: normal;
@@ -89,12 +99,14 @@ li {
   color: #fb6d3a;
 }
 .my-work-experience-section {
+  margin-top: 40px;
 }
 /* My Education */
 .my-education-name {
   color: #fb6d3a;
 }
 .my-education-section {
+  margin-top: 40px;
 }
 
 /* Sidebar section */
@@ -104,7 +116,7 @@ li {
   padding-top: 40px;
 }
 .foto-section {
-  width: 310px;
+  width: 369px;
   height: 354px;
   left: 72px;
   top: 163px;
